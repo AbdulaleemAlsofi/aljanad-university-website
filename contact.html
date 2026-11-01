@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Create your account at Janad University and join our academic community in Taiz, Yemen." />
+  <meta name="theme-color" content="#006aff" />
+  <title>Janad University | Create Account</title>
+  <link rel="icon" href="./Image/6.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-nav" id="siteNav">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand"><img src="./Image/6.png" alt="logo" /><span>Janad University</span></a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <button class="nav-close" aria-label="Close menu"><i class="fa-solid fa-xmark"></i></button>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="ourcourses.html">Courses</a>
+        <a href="blogs.html">Blogs</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Open menu"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </header>
+  <div class="nav-backdrop"></div>
+
+  <section class="section register-hero">
+    <div class="container">
+      <span class="pill" style="background:rgba(255,255,255,.15);color:#fff">Join Us</span>
+      <h1 style="margin-top:.75rem">Create Your Account</h1>
+      <p>Fill in the form below to register at Janad University, Taiz.</p>
+    </div>
+  </section>
+
+  <div class="container register-wrap">
+    <div class="form-card reveal">
+      <form id="registerForm" novalidate>
+        <div class="field" id="field-name">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" placeholder="e.g. Ahmed Ali" autocomplete="name" required />
+          <div class="error-msg"></div>
+        </div>
+
+        <div class="field" id="field-phone">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" placeholder="+967712345678" autocomplete="tel" required />
+          <div class="error-msg"></div>
+        </div>
+
+        <div class="field" id="field-password">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" placeholder="At least 6 characters" autocomplete="new-password" required />
+          <div class="error-msg"></div>
+        </div>
+
+        <div class="field" id="field-confirm">
+          <label for="confirmPassword">Confirm Password</label>
+          <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Re-enter your password" autocomplete="new-password" required />
+          <div class="error-msg"></div>
+        </div>
+
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary btn-block">Create Account</button>
+        </div>
+
+        <div class="form-success pill" hidden style="margin-top:1rem;display:block;text-align:center">
+          <i class="fa-solid fa-circle-check"></i> Account created successfully!
+        </div>
+      </form>
+
+      <p style="text-align:center; margin-top:1.5rem; font-size:.88rem; color:var(--text-muted)">
+        By creating an account, you agree to Janad University's registration policies.
+      </p>
+
+      <div style="margin-top:1.5rem; padding-top:1.5rem; border-top:1px solid var(--border); text-align:center">
+        <p style="font-size:.9rem; margin-bottom:.5rem"><strong>Need help?</strong></p>
+        <p style="font-size:.85rem">
+          <i class="fa-solid fa-location-dot"></i> Al-Musalla St., Taiz, Yemen<br>
+          <i class="fa-solid fa-phone"></i> 04 265 856 &nbsp;|&nbsp;
+          <i class="fa-solid fa-mobile"></i> 777 732 828
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand"><img src="./Image/6.png" alt="logo" /><span>Janad University</span></div>
+          <p>Al Janad University for Science and Technology — dedicated to excellence in education, research, and community service in Taiz, Yemen. Established 2018.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="ourcourses.html">Courses</a>
+            <a href="blogs.html">Blogs</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <div class="footer-links">
+            <a href="#"><i class="fa-solid fa-location-dot"></i> Al-Musalla St., Taiz, Yemen</a>
+            <a href="tel:+9674265856"><i class="fa-solid fa-phone"></i> 04 265 856</a>
+            <a href="mailto:info@just.edu.ye"><i class="fa-solid fa-envelope"></i> info@just.edu.ye</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        Designed &amp; developed by <strong>Abdulaleem Alsofi</strong> — &copy; <span class="year"></span> Janad University
+      </div>
+    </div>
+  </footer>
+
+  <button class="to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+  <script src="script.js"></script>
+</body>
+</html>
